@@ -1,7 +1,7 @@
 <main class="main">
     <section class="">
         <div class="container">
-        <article id="post-<?php the_ID(); ?>" <?php post_class('clearfix'); ?> />
+        <article id="post-<?php the_ID(); ?>" <?php post_class('clearfix'); ?> >
 
             <a><?php the_title('<h1 class="entry-title">', '</h1>'); ?></a>
 
