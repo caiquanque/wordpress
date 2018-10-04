@@ -46,7 +46,7 @@ function mailchimp_curl_connect ($url, $request_type, $api_key, $data = array())
 function syncMailchimp ($email)
 {
 
-    $api_key = '7198bc4aa0542058511eac8b63139bcc-us19';
+    $api_key = 'xxxxxxxxxxxxxxxxxxx';
     $data1   = array(
         'fields' => 'lists',
         'count'  => 5,
